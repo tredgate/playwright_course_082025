@@ -1,4 +1,3 @@
-// test_steps.spec.ts
 import { expect, test } from "@playwright/test";
 
 test("Using Test Steps", async ({ page }) => {
