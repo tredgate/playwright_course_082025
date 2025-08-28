@@ -48,12 +48,3 @@ test("Assert Response Body", async ({ request }) => {
   // * Kontrola konkrétních dat
   expect(responseBody.email).toBe("petr.fifka@tredgate.cz");
 });
-
-/*
-Cvičení (⌛8:00):
-Ve složce exercises vytvořte nový test soubor:  api_asserts_exercise.spec.ts
-Vytvořte volání API v playwright na https://tegb-backend-877a0b063d29.herokuapp.com/train
-Metoda: PATCH (request.patch)
-Otestujte, že timestamp je text, id = 1
-
-*/
